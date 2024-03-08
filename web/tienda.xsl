@@ -67,7 +67,7 @@
         <article>
             <section>
                 <!-- Se crea una imagen con el atributo foto del artículo -->
-                <img class="articulo" src="/img/{@foto}"/>
+                <img class="articulo" src="../img/{@foto}"/>
             </section>
             <section>
                 <!-- Se crea un encabezado con el precio del artículo -->
