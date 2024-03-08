@@ -1,0 +1,147 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+/* Estilos del header */
+header {
+	display: flex;
+	height: 85px;
+	background-color: black;
+}
+header img {
+	height: 100%;
+}
+header a {
+	color: white;
+	text-decoration: none;
+	align-self: center;
+	padding: 1rem;
+}
+header a:hover {
+	background-color: rgb(245, 152, 10);
+}
+
+section {
+	color: black;
+	text-align: left;
+}
+article {
+	margin: 2%;
+	width: 290px;
+}
+
+main {
+	background-image:linear-gradient(rgb(255 255 255 / 50%), rgba(245, 152, 10, 0.5)),url("../img/fondo.jpg");
+	color: #F5FDED;
+	min-height: calc(100vh - 135px - 40px);
+	padding: 20px;
+}
+
+h1 {
+	padding-left: 2rem;
+	margin:0;
+	text-transform: uppercase;
+}
+
+main h1 {
+	font-size: 2rem;
+	margin: 2rem;
+	padding: 2rem;	
+}
+
+/* Estilos del index */
+.principal {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	padding-top: 10%;
+}
+
+.principal > h1 {
+	text-shadow: 0.15rem 0.1em #333;
+	text-align: center;
+}
+
+
+/* Estilos de tienda */
+.articulo {
+	border: 10px solid black;
+}
+
+
+/* Estilos de equipos */
+h1 a {
+	color: #F5FDED;
+	text-decoration: none;
+}
+h1 a:hover {
+	color: #F5FDED;
+	display: inline-block;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+.equipos {
+	background-color: #F5FDED;
+	color: #A44C05;
+	text-shadow: none;
+	box-sizing: border-box;
+	width: 40%;
+	margin: 2% auto;
+	padding: 15px ;
+	border-radius: 15px;
+}
+
+.equipos h4 {
+	background-color: #A44C05;
+	color: #F5FDED;
+	margin: 0;
+	padding: 1.25rem;
+	border-radius: 15px;
+	text-transform: uppercase;
+}
+
+
+
+
+/*Estilos para partidos */
+table {
+	width: 60%;
+	margin: auto;
+	border-collapse: collapse;
+	color: #A44C05;
+}
+
+tr:nth-child(odd) {
+	background-color: rgba(28, 23, 177,0.2);
+}
+
+th {
+	font-size:1.5rem;
+	padding: 1.5rem;
+	border-bottom: solid 1px #A44C05;
+}
+td {
+	font-size:1.1rem;
+	padding: 1.1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.azul {
+	color: rgb(28, 23, 177);
+	font-weight: bold;
+}
+
+
+/*Estilos para el footer*/
+footer {
+	height: 50px;
+}
+
+address {
+	padding: 1rem;
+	text-align: right;
+	background-color: black;
+	color: white;
+}
